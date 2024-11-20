@@ -21,7 +21,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.FLO_TOKEN }}
 
       - name: Construire le conteneur et le publier sur le registre GitHub Packages
         uses: docker/build-push-action@v5

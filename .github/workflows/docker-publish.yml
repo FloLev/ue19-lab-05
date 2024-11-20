@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.FLO_TOKEN }}
 
       - name: Construire le conteneur et le publier sur le registre GitHub Packages
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v3
         with:
           context: .
           push: true

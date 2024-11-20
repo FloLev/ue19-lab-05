@@ -1,5 +1,5 @@
 # Application de Blagues
-
+test
 Cette application interroge l'API JokesAPI pour afficher une blague aléatoire.
 
 ## Installation
